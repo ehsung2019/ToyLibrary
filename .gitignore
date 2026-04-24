@@ -1,6 +1,7 @@
-# Gradle
+# Android / Gradle
 .gradle/
 build/
+app/build/
 
 # Local config
 local.properties
@@ -9,15 +10,14 @@ local.properties
 .idea/
 *.iml
 
-# Mac / Windows
+# OS
 .DS_Store
 Thumbs.db
 
-# Generated
-captures/
+# Build outputs
+*.apk
+*.aab
 
-# Kotlin
-*.class
-
-# Logs
-*.log
+# Videos
+*.webm
+*.mp4
